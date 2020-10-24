@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{   
+    background-color: rgb(188, 196, 167);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:100vh;
+}
+.header{
+    background-image: url(./images/—Pngtree—abstract\ smoke\ creative\ colorful\ border_5509670.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+    height:90vh;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 155);
+    box-shadow: 0px 0px 20px 20px rgba(53, 63, 34, 0.5);
+    
+   
+}
+h1{
+    margin-top:90px;
+    color:rgb(102, 102, 76);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+input{
+    width:25vh;
+    height:34px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(53, 63, 34, 0.5);
+    margin-top:5px;
+    font-weight: bolder;
+    font-size:15px;
+    padding-left: 10px;
+    
+}
+
+button{
+    margin:20px;
+    margin-bottom: 0;
+    width:20vh;
+    height:40px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(53, 63, 34, 0.5);
+  
+
+}
+#text{  
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: large;
+   
+  
+
+
+}
+@media only screen and (max-width: 500px){
+    .input{
+        flex-direction: column;
+        width:95%;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+           
+    }
+ 
+    button{
+        margin-top: 30px;
+        align-items: center;
+    }
+    .header{
+        background-image:url(./images/—Pngtree—abstract\ smoke\ creative\ colorful\ border_5509670.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+    }
+    h1{
+        margin-top:170px;
+        color: rgb(158, 158, 93);
+       
+    }
+
+}  
