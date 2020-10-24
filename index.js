@@ -12,9 +12,11 @@ function perfectNumber (){
         }
     
     }
-    if ( sum == inputNumber){
-        textElement.innerText ="It s a perfect number"
-    }else{
+    if ( inputNumber ==0){
+        textElement.innerText ="It's not a number!"
+    }else if (sum == inputNumber) {
+        textElement.innerText = "It s a perfect number";
+    }else {
         textElement.innerText ="It s not a perfect number"
     }
     document.querySelector("#inpt").focus();
